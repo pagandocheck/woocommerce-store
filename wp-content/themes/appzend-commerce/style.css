@@ -1,0 +1,252 @@
+/*
+Theme Name:     Appzend Commerce
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/appzend-commerce/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com/
+Description:    Appzend Commerce is lite lightweight, fast, fully customizable & beautiful WordPress theme suitable for online business, online store. It is very lightweight and offers unparalleled speed. Built with SEO in mind, Appzend Commerce comes with Schema.org code integrated so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained. Looking for a perfect base theme? Look no further. Appzend is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Version:        1.0.2
+Tested up to:   5.7
+Requires PHP:   5.6
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       appzend
+Text Domain:    appzend-commerce
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Appzend Commerce is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+.nav-classic .header-middle-inner .site-branding,
+.nav-classic .nav-menu{
+    flex: unset;
+    width: 25%;
+    max-width: 25%;
+}
+.nav-classic .header-middle-inner .header-search{
+    max-width: 50%;
+    width: 50%;
+}
+.header-search input[type="search"]{
+    line-height: 24px;
+    padding: 12px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: white;
+}
+input.search-submit {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0;
+    margin-left: -7px;
+    border: 1px solid #eee;
+}
+.header-search form label {
+    width: 100%;
+}
+.header-search .search-form {
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.nav-menu .link-box .call-us * {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-menu .link-box .sub-text {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+}
+.nav-menu .link-box {
+    position: relative;
+    padding-left: 10px;
+    margin-left: 7px;
+}
+.nav-menu .link-box .call-us .link {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.nav-menu .link-box .call-us .link i{
+    font-size: 40px;
+}
+.nav-menu .link-box::before {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    height: 150%;
+    width: 1px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.site-header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-classic .nav-menu {
+    display: inline-flex;
+}
+
+.menu-style-sidebar button.mobile-nav-toggle{
+    display: block;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.menu-style-sidebar .toggle-text{
+    display: none;
+}
+.nav-classic .full-width-nav-menu {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-shadow: 0px -5px 8px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0px -5px 8px rgba(255, 255, 255, 0.15);
+    box-shadow: 0px -5px 8px rgba(255, 255, 255, 0.15);
+}
+
+
+/** tab style improvement */
+.sparkletabs.tabsblockwrap.tab_styleone.clearfix {
+    padding: 20px 60px;
+    border: 3px dotted #eee;
+    border-radius: 10px;
+    position: relative;
+}
+.sparkletabs.tabsblockwrap.tab_styleone .sparkletablinks {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+}
+
+.sparkletabs.tabsblockwrap.tab_styleone .sparkletablinkscontent {
+    margin-top: 41px;
+}
+.sparkletabs.tabsblockwrap.tab_styleone .sparkletablinks li:first-child a{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.sparkletabs.tabsblockwrap.tab_styleone .sparkletablinks li:last-child a{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.sparkletablinks li.active a{
+    background: white;
+    color: #f64d2b;
+    border: 1px solid;
+}
+.tabsblockwrap.tab_styletwo .sparkletablinks {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.tabsblockwrap.tab_styletwo ul li a.btn {
+    border: 1px solid #f64d2b;
+}
+.sparkletabs.tabsblockwrap.tab_styletwo .sparkletablinks li:first-child a{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.sparkletabs.tabsblockwrap.tab_styletwo .sparkletablinks li:last-child a{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.tabsblockwrap.tab_stylethree ul li a.btn {
+    border-radius: 0;
+    padding: 3px;
+    background: transparent;
+    color: #f64d2b;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    display: block;
+}
+.tabsblockwrap.tab_stylethree ul li:last-child a.btn{
+    margin-right: 0;
+}
+.tabsblockwrap.tab_stylethree ul li:hover a.btn,
+.tabsblockwrap.tab_stylethree ul li.active a.btn{
+    border-bottom: 1px solid;
+}
+.tabsblockwrap.tab_stylethree .sparkletabproductarea {
+    margin-top: 45px;
+}
+
+
+/** woocommerce sales tags */
+.store_products_item .flash > span{
+    border-radius: unset;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    padding: unset;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 8px;
+    top: 0;
+}
+.woocommerce ul.products li.product .on_sale, 
+.store_products_item_body .flash .on_sale{
+    top:0;
+    overflow: unset;
+}
+.woocommerce ul.products li.product .flash > span::after,
+.woocommerce ul.products li.product .flash > span::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 12px solid #f33c3c;
+}
+.woocommerce ul.products li.product .flash > span.on_sale::after,
+.woocommerce ul.products li.product .flash > span.on_sale::before{
+    border-top: 12px solid #ffc60a;
+}
+@media(max-width:1024px){
+    .nav-menu .link-box {
+        margin-left: 0;
+        margin-right: 7px;
+        display: none;
+    }
+    .nav-classic .nav-menu{
+        justify-content: flex-end;
+    }
+    .nav-classic .full-width-nav-menu{
+        display: none;
+    }
+}
+
+@media(max-width: 650px){
+    .nav-menu .link-box {
+        display: none;
+    }
+    .nav-classic .header-middle-inner .header-search{
+        display: none;
+    }
+
+    .nav-classic .header-middle-inner .site-branding{
+        flex: unset;
+        width: 50%;
+        max-width: 50%;
+    }
+    button.mobile-nav-toggle{
+        margin-left: 15px;
+    }
+}

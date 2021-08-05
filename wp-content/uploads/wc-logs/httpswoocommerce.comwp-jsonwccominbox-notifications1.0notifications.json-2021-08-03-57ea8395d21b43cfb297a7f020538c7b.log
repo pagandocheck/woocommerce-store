@@ -1,0 +1,44 @@
+2021-08-03T19:06:54+00:00 ERROR Error getting remote inbox notification data feed
+2021-08-03T19:06:54+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 35: OpenSSL SSL_connect: Network is down in connection to woocommerce.com:443 
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2021-08-03T19:06:54+00:00 ERROR Error getting remote inbox notification data feed
+2021-08-03T19:06:54+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 35: OpenSSL SSL_connect: Network is down in connection to woocommerce.com:443 
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
