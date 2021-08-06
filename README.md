@@ -16,7 +16,8 @@ Lo primero que debe hacer es visitar el sitio web de [MAMP](https://www.mamp.inf
 Después de la instalación, puede continuar e iniciar MAMP desde **Aplicaciones »MAMP** en su computadora.
 
 Antes de comenzar, se recomienda configurar algunos ajustes para mejorar su experiencia con MAMP. Puede hacer esto abriendo el menú Preferencias y luego cambiar a la pestaña de puertos.
-(AQUI VA UNA IMAGEN)
+
+![changeapacheport](https://user-images.githubusercontent.com/88348069/128447300-023fbd7e-c5c3-4443-ae15-f6a3c51db855.png)
 
 El siguiente paso es configurar la carpeta raíz del documento. Esta será la carpeta donde creará y almacenará sus sitios web. De forma predeterminada, MAMP usa la carpeta / Aplicaciones / MAMP / htdocs /, pero puede cambiarla a una ubicación más accesible.
 
@@ -42,6 +43,8 @@ Para realizar el cambio del nombre de la base de datos en la configuración , ha
 ### 4. Acceder a la página.
 En el navegador ir a http://localhost/wp/ para visualizar la tienda con los productos cargados en la base de datos. Debería verse de la siguiente forma: 
 
+<img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
+
 ## Instalar plugin de Pagando para pagos en la tienda.
 
 ### 1. Iniciar sesión en Wordpress
@@ -58,7 +61,7 @@ Se mostrará la página de Wordpress instalada localmente, en la cual se puedenn
 Ir al menu lateral izquierdo, en la sección **Plugins**, seleccionar la opción **Agregar plugin** y despues en la opción **cargar plugin**, subir la carpeta comprimida (.zip) con el plugin de Pagando.
 
 ### 3. Activar plugin
-Para activar el plugin , ir al menu lateral izquierdo, en la sección **Plugins**, y seleccionar **Activar** en el plugin de Pagando. Cuando se ha realizado correctamente , deberá aparecer **Pagando** en el mmenú lateral izquierdo.
+Para activar el plugin , ir al menu lateral izquierdo, en la sección **Plugins**, y seleccionar **Activar** en el plugin de Pagando. Cuando se ha realizado correctamente , deberá aparecer **Pagando** en el menú lateral izquierdo.
 
 ### 4. Agregar credenciales.
 Para poder aceptar pagos con **Pagando**, es necesario configurar el usuario y la llave generados en la plataforma de **Pagando**.
