@@ -41,14 +41,14 @@ Luego, seleccionar la base de datos, dar clic en el menu **importar** y seleccio
 Para realizar el cambio del nombre de la base de datos en la configuración , hay que editar el archivo **wp-config.php** y cambiar el campo **DB_NAME** con el nombre que se haya elegido.
 
 ### 4. Acceder a la página.
-En el navegador ir a http://localhost/wp/ para visualizar la tienda con los productos cargados en la base de datos. Debería verse de la siguiente forma: 
+En el navegador ir a http://localhost/woocommerce-store/ para visualizar la tienda con los productos cargados en la base de datos. Debería verse de la siguiente forma: 
 
 <img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
 
 ## Instalar plugin de Pagando para pagos en la tienda.
 
 ### 1. Iniciar sesión en Wordpress
-Ingresar a la página de configuración de Wordpress de nuestra tienda **http://localhost/wp/wp-login.php** e iniciar sesión con las siguientes credenciales:
+Ingresar a la página de configuración de Wordpress de nuestra tienda **http://localhost/woocommerce-store/wp-login.php** e iniciar sesión con las siguientes credenciales:
 
 ```
 username: admin
