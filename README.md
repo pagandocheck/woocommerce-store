@@ -46,5 +46,5 @@ En el navegador ir a http://localhost/woocommerce-store/ para visualizar la tien
 <img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
 
 ## Instalar plugin de Pagando Check para pagos en la tienda.
-Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://github.com/pagandocheck/plugin-pagandocheck-woocommerce)
+Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://gitlab.com/pagandocheck/plugin-pagandocheck-woocommerce)
 
