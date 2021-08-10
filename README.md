@@ -35,7 +35,7 @@ Para importar la base de datos, en el menu superior de la página de inicio de M
 
 En **phpMyAdmin** hacer clic en Bases de datos y luego crear nueva base de datos. Agregar como nombre ***woocommerce***, en caso de que se desee poner otro nombre habrá que cambiar la configuración en el proyecto.
 
-Luego, seleccionar la base de datos, dar clic en el menu **importar** y seleccionar el archivo **woocommerce.sql** de nuestro proyecto, despues dar clic en **importar**. Si se importó de manera satisfactoria podremos ver las tablas de la base de datos.
+Luego, seleccionar la base de datos, dar clic en el menu **importar** y seleccionar el archivo **woocommerce.sql** de la carpeta [database](../../database/woocommerce.sql) de nuestro proyecto, despues dar clic en **importar**. Si se importó de manera satisfactoria podremos ver las tablas de la base de datos.
 
 > **_Nota:_**
 Para realizar el cambio del nombre de la base de datos en la configuración , hay que editar el archivo **wp-config.php** y cambiar el campo **DB_NAME** con el nombre que se haya elegido.
@@ -45,34 +45,6 @@ En el navegador ir a http://localhost/woocommerce-store/ para visualizar la tien
 
 <img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
 
-## Instalar plugin de Pagando para pagos en la tienda.
-
-### 1. Iniciar sesión en Wordpress
-Ingresar a la página de configuración de Wordpress de nuestra tienda **http://localhost/woocommerce-store/wp-login.php** e iniciar sesión con las siguientes credenciales:
-
-```
-username: admin
-pass: 
-```
-
-Se mostrará la página de Wordpress instalada localmente, en la cual se puedenn configurar las diferentes opciones de la tienda de Woocommerce, incluyendo los productos, precios y métodos de pago.
-
-### 2. Agregar plugin de Pagando.
-Ir al menu lateral izquierdo, en la sección **Plugins**, seleccionar la opción **Agregar plugin** y despues en la opción **cargar plugin**, subir la carpeta comprimida (.zip) con el plugin de Pagando.
-
-### 3. Activar plugin
-Para activar el plugin , ir al menu lateral izquierdo, en la sección **Plugins**, y seleccionar **Activar** en el plugin de Pagando. Cuando se ha realizado correctamente , deberá aparecer **Pagando** en el menú lateral izquierdo.
-
-### 4. Agregar credenciales.
-Para poder aceptar pagos con **Pagando**, es necesario configurar el usuario y la llave generados en la plataforma de **Pagando**.
-
-### 5. Activar el método de pago.
-En el menu lateral izquierdo, en la sección **Woocommerce**, seleccionar la opción **Ajustes**, en la opción **Pagos**, activar Pagando como método de pago. 
-
-
-
-
-
-
-
+## Instalar plugin de Pagando Check para pagos en la tienda.
+Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://github.com/pagandocheck/plugin-pagandocheck-woocommerce)
 
