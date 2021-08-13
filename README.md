@@ -35,7 +35,7 @@ Para importar la base de datos, en el menu superior de la página de inicio de M
 
 En **phpMyAdmin** hacer clic en Bases de datos y luego crear nueva base de datos. Agregar como nombre ***woocommerce***, en caso de que se desee poner otro nombre habrá que cambiar la configuración en el proyecto.
 
-Luego, seleccionar la base de datos, dar clic en el menu **importar** y seleccionar el archivo **woocommerce.sql** de la carpeta [database](../../database/woocommerce.sql) de nuestro proyecto, despues dar clic en **importar**. Si se importó de manera satisfactoria podremos ver las tablas de la base de datos.
+Luego, seleccionar la base de datos, dar clic en el menu **importar** y seleccionar el archivo **woocommerce.sql** de la carpeta [database](https://gitlab.com/pagandocheck/woocommerce-store/-/blob/master/database/woocommerce.sql) de nuestro proyecto, despues dar clic en **importar**. Si se importó de manera satisfactoria podremos ver las tablas de la base de datos.
 
 > **_Nota:_**
 Para realizar el cambio del nombre de la base de datos en la configuración , hay que editar el archivo **wp-config.php** y cambiar el campo **DB_NAME** con el nombre que se haya elegido.
@@ -46,5 +46,5 @@ En el navegador ir a http://localhost/woocommerce-store/ para visualizar la tien
 <img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
 
 ## Instalar plugin de Pagando Check para pagos en la tienda.
-Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://github.com/pagandocheck/plugin-pagandocheck-woocommerce)
+Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://gitlab.com/pagandocheck/plugin-pagandocheck-woocommerce)
 
