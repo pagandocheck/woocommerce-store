@@ -6,20 +6,38 @@
 La tienda de ejemplo con Woocommerce contiene una plantilla con algunos productos añadidos en donde se puede visualizar de que manera se puede realizar la configuración de una tienda online. Su contenido abarca una instalación de Wordpress donde se encuentra ubicado Woocommerce, una base de datos precargada con la información de los productos y la pagina de ejemplo con la plantilla de una tienda Pagando.
 
 ### Requisitos para una instalación local.
-- Un servidor en donde quedará alojada la página. En éste caso se usará MAMP.
+- **PHP 7.4** instalado, como mínimo, en caso de no cumplir con este requerimiento, nosotros sugerimos su actualización a esta versión a través de brew; un instalador de paquetes para macOS que puedes encontrar [aquí](https://brew.sh/index_es).
+- **MAMP**.- Un servidor para alojar la página web, puedes encontrarlo [aquí](https://www.mamp.info/en/mac/), pero también puede utilizar otro servidor de su preferencia.
 
-## Instalación en Mac
+## Instalación
 
 ### 1. Instalar MAMP
 
-Lo primero que debe hacer es visitar el sitio web de [MAMP](https://www.mamp.info/en/mac/) y descargar. Una vez finalizada la descarga, deberá abrir el archivo descargado y arrastrar el archivo de imagen dentro de él a su carpeta de Aplicaciones. A continuación, simplemente siga las instrucciones en pantalla.
-Después de la instalación, puede continuar e iniciar MAMP desde **Aplicaciones »MAMP** en su computadora.
+Lo primero que debe hacer es visitar el sitio web de [MAMP](https://www.mamp.info/en/downloads/) y descargar. Una vez finalizada la descarga:
+
+**Mac**:
+Deberá abrir el archivo descargado y arrastrar el archivo de imagen dentro de él a su carpeta de Aplicaciones. A continuación, simplemente siga las instrucciones en pantalla. Después de la instalación, puede continuar e iniciar MAMP desde **Aplicaciones »MAMP** en su computadora.
+
+**Windows**:
+Ejecutar el instalador, seguir las instrucciones y abrir la aplicación desde el icono ubicado normalmente en el escritorio.
 
 Antes de comenzar, se recomienda configurar algunos ajustes para mejorar su experiencia con MAMP. Puede hacer esto abriendo el menú Preferencias y luego cambiar a la pestaña de puertos.
 
 ![changeapacheport](https://user-images.githubusercontent.com/88348069/128447300-023fbd7e-c5c3-4443-ae15-f6a3c51db855.png)
 
-El siguiente paso es configurar la carpeta raíz del documento. Esta será la carpeta donde creará y almacenará sus sitios web. De forma predeterminada, MAMP usa la carpeta / Aplicaciones / MAMP / htdocs /, pero puede cambiarla a una ubicación más accesible.
+El siguiente paso es configurar la carpeta raíz del documento. Esta será la carpeta donde creará y almacenará sus sitios web. De forma predeterminada, MAMP usa la carpeta:
+
+**Mac**
+```
+/ Aplicaciones / MAMP / htdocs /.
+```
+**Windows**
+```
+Windows(C:) / MAMP / htdocs /
+```
+
+> **_Nota:_**
+Puede cambiar la carpeta a una ubicación más accesible.
 
 Para terminar con la instalación de MAMP solo hay que presionar el botón **start** del servidor. Al hacerlo se abrirá la pagina de inicio de MAMP (http://localhost/MAMP/?language=English)
 
@@ -45,6 +63,13 @@ En el navegador ir a http://localhost/woocommerce-store/ para visualizar la tien
 
 <img width="950" alt="Captura de Pantalla 2021-08-05 a la(s) 20 33 11" src="https://user-images.githubusercontent.com/88348069/128447095-2bf718d3-44d4-4b45-b5de-562cef808c27.png">
 
-## Instalar plugin de Pagando Check para pagos en la tienda.
-Para poder realizar pagos en la tienda es necesario instalar el [plugin de woocommerce para Pagando Check](https://gitlab.com/pagandocheck/plugin-pagandocheck-woocommerce)
+### 6. Acceder al panel de administración.
+En el panel de administración se muestran los diferentes menu con opciones para configurar la tienda de Woocommerce, éste demo incluye un plugin de Pagando check activado que muestra dicho método de pago en la tienda.
+Ingrese en la siguiente liga: http://localhost/woocommerce-store/wp-login.php para tener acceso al panel de administración. Las contraseñas por default son:
+
+username: demo
+
+password: demo
+
+<img width="1438" alt="Captura de Pantalla 2021-08-20 a la(s) 9 12 50" src="https://user-images.githubusercontent.com/88348069/130246853-f2d1f63c-5157-46ef-a715-a45e4a9cc33e.png">
 
